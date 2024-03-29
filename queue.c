@@ -15,12 +15,12 @@ void f_queue(stack_t **head, unsigned int line_number)
 }
 
 /**
- * add_queue - Adds a node to the tail of the stack.
+ * addqueue - Adds a node to the tail of the stack.
  * @head: Pointer to the head of the stack
  * @new_value: New value to be added
  * Return: No return value
  */
-void add_queue(stack_t **head, int new_value)
+void addqueue(stack_t **head, int new_value)
 {
     stack_t *new_node, *temp;
 
